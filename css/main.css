@@ -85,4 +85,46 @@ body {
   background-color: #D9E4F2;
   color: #313A49;
   box-shadow: 2.4rem 2.4rem 5rem rgba(0, 0, 0, 0.2);
+}
+.quotes__search {
+  width: 100%;
+  height: 4.8rem;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 0.8rem;
+}
+.quotes__search--id {
+  margin-bottom: 1.6rem;
+}
+.quotes__search--word {
+  margin-bottom: 4.8rem;
+}
+.quotes__search input {
+  width: 100%;
+  border: none;
+  border-radius: 2.4rem 0rem 0rem 2.4rem;
+  font-family: inherit;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+.quotes__search input:focus {
+  outline: 2px #54FEAA solid;
+  outline-offset: -2px;
+}
+.quotes__search button {
+  width: 100%;
+  background-color: #54FEAA;
+  color: #202632;
+  border: none;
+  cursor: pointer;
+  border-radius: 0rem 2.4rem 2.4rem 0rem;
+  font-size: 3.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+.quotes__search button:hover {
+  background-color: #D9E4F2;
+  border-radius: 2.4rem;
 }/*# sourceMappingURL=main.css.map */
